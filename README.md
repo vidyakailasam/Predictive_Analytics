@@ -42,6 +42,7 @@ Adjusted R^2: For better understanding of the effect of additional variables to 
 
 **MLR:**
 _Training data:_
+
                       Mean Error (ME) : 0.0000
        Root Mean Squared Error (RMSE) : 1316.9682
             Mean Absolute Error (MAE) : 983.3779
@@ -56,8 +57,9 @@ Regression statistics
             Mean Absolute Error (MAE) : 1041.8620
           Mean Percentage Error (MPE) : -1.5385
 Mean Absolute Percentage Error (MAPE) : 10.1586
-__
-Training data after changing hyperparameters:__
+
+Training data after changing hyperparameters:
+
 Regression statistics
 
                       Mean Error (ME) : 0.0000
@@ -65,8 +67,9 @@ Regression statistics
             Mean Absolute Error (MAE) : 1004.9636
           Mean Percentage Error (MPE) : -1.2316
 Mean Absolute Percentage Error (MAPE) : 10.1860
-_
-Testing data after changing hyperparameters:_
+
+Testing data after changing hyperparameters:
+
 Regression statistics
 
                       Mean Error (ME) : -80.5732
@@ -87,42 +90,49 @@ _(After changing hyperparameters):_ Root Mean Squared Error (RMSE):  1704.2231
 
 Optimal value for k: 6
 
-**Tree based models:**
+Tree based models:
 
 **Decision tree: **
 
 _(Training data):_
+
 Mean Absolute Error: 0.0
 Mean Squared Error: 0.0
 Root Mean Squared Error: 0.0
 
 _(Testing data):_
+
 Mean Absolute Error: 1087.5328638497654
 Mean Squared Error: 2060894.2511737088
 Root Mean Squared Error: 1435.5815027972842
 _
 (After changing hyperparameters):_
+
 Mean Absolute Error: 1062.1335547681897
 Mean Squared Error: 2414218.6251599602
 Root Mean Squared Error: 1553.7756032194482
 
 **Random forest:**
 _(Training data):_
+
 Mean Absolute Error: 317.21556898288014
 Mean Squared Error: 178859.3858934542
 Root Mean Squared Error: 422.9177058169286
 
 _(Testing data):_
+
 Mean Absolute Error: 840.9959859154931
 Mean Squared Error: 1223732.729949061
 Root Mean Squared Error: 1106.22453866702
 
 _(After changing hyperparameters in train data):_
+
 Mean Absolute Error: 337.67767104982084
 Mean Squared Error: 195999.62860715998
 Root Mean Squared Error: 442.71845297791685
 _
 (After changing hyperparameters in test data):_
+
 Mean Absolute Error: 836.2163885893779
 Mean Squared Error: 1202481.0898728112
 Root Mean Squared Error: 1096.5769876633428
@@ -130,11 +140,13 @@ Root Mean Squared Error: 1096.5769876633428
 **Gradient boost:**
 
 _(Training data):_
+
 Mean Absolute Error: 641.0212861233148
 Mean Squared Error: 679296.6998088812
 Root Mean Squared Error: 824.1945764253009
 
 _(Testing data):_
+
 Mean Absolute Error: 807.3522755228529
 Mean Squared Error: 1137843.7763212216
 Root Mean Squared Error: 1066.6976030352846
